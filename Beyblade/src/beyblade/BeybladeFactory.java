@@ -1,11 +1,9 @@
 
 package beyblade;
 
-// paket dışarısından erişim olmadığı için package-friendly bırakılabilir
 class BeybladeFactory {
 
-    // sınıfın new BeybladeFactory ile çağrılmasını engellemek için
-    // çünkü bütün yordamlar statik yapıldı
+    
     private BeybladeFactory() {
 
     }

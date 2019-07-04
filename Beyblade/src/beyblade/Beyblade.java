@@ -9,7 +9,7 @@ package beyblade;
  *
  * @author cansu.karaca
  */
-// sınıfın somut (concrete) hali kullanılmadığı için soyut yapılabilir.
+// sınıfın somut (concrete) hali kullanılmadığı için soyut yapıldı.
 public abstract class Beyblade {
 
     private String beybladesName;
@@ -27,14 +27,12 @@ public abstract class Beyblade {
         return beybladesName;
     }
 
-    // setter ve getter'lar kullanılmadığı için kaldırıldı - lüzumsuz ise söndür :)
     void attcak() {
     
         System.out.println(beybladesName + " " + attackPower + " and " + rotationSpeed + " with attack...");
     
     }
 
-    // soyut sınıf yaptıktan sonra bu yordamı da soyut yaparak alt sınıfların bu yordamı gerçeklemesi zorunlu tutulabilir
     public abstract void inquireSacredMonster();
     
     public void inquireInformation(){

@@ -21,7 +21,7 @@ public class BeybladeMain {
               break;
           }
           else{
-              // artık static çağrılabilir
+           
               Beyblade beyblade = BeybladeFactory.produceBeyblade(option);
               
               if(beyblade==null){
